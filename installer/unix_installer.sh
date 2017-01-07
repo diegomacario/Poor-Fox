@@ -29,9 +29,11 @@ fi
 
 echo -e "\nThis script will simply download the binary for Poor Fox and place it under $exec_path\n"
 if [[ $1 == "macos" ]]; then
-    curl -L $mac_binary_download_url -o $exec_name && sudo mv $exec_name $exec_path && chmod +x $exec_full_path
+    curl -L $mac_binary_download_url -o $exec_name || { echo -e "\nError: Something went wrong while trying to download the pfox binary for $1.\n"; exit 1; }
+    sudo mv $exec_name $exec_path && chmod +x $exec_full_path
 elif [[ $1 == "linux" ]]; then
-    curl -L $linux_binary_download_url -o $exec_name && sudo mv $exec_name $exec_path && chmod +x $exec_full_path
+    curl -L $linux_binary_download_url -o $exec_name || { echo -e "\nError: Something went wrong while trying to download the pfox binary for $1.\n"; exit 1; }
+    sudo mv $exec_name $exec_path && chmod +x $exec_full_path
 else
     echo -e "\nError: You need to specify the OS you are installing PoorFox on. Usage: bash unix_installer.sh [macos|linux]\n"
     exit 1
