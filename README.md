@@ -25,17 +25,32 @@ A beautiful command-line application designed to help you keep track of your exp
 
 ## Installation
 
-__Prerequisite__: Have [Chalk](https://github.com/chalk/chalk) installed in your system.
+### Prerequisites 
+
+Have [Chalk](https://github.com/chalk/chalk) installed in your system.
  ```sh
  $ npm install --save chalk
  ```
-__Linux and macOs__: To install the application globally, execute the command below.
- ```sh
- $ 
- ```
-This command downloads the binary included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases) and places it in your _/usr/local/bin/_ folder.
+ 
+### macOS
 
-__Windows__: To install the application globally, download the executable named _pfox_windows.exe_ included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases), rename it as _pfox.exe_ and place it in a folder that's on the PATH environment variable.
+To install the application globally, execute the command below.
+ ```sh
+ $ curl -L https://github.com/diegomacario/Poor-Fox/raw/master/installer/unix_installer.sh | sudo bash -s macos
+ ```
+This command downloads the binary _pfox_macOS_ included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases) and places it in your _/usr/local/bin/_ folder.
+
+### Linux
+
+To install the application globally, execute the command below.
+ ```sh
+ $ curl -L https://github.com/diegomacario/Poor-Fox/raw/master/installer/unix_installer.sh  | sudo bash -s linux
+ ```
+This command downloads the binary _pfox_linux_ included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases) and places it in your _/usr/local/bin/_ folder.
+
+### Windows
+
+To install the application globally, download the executable named _pfox_windows.exe_ included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases), rename it as _pfox.exe_ and place it in a folder that's on the PATH environment variable.
 
 ## Usage
 
