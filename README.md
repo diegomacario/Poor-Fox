@@ -33,7 +33,7 @@ __Linux and macOs__: To install the application globally, execute the command be
  ```sh
  $ 
  ```
-This command downloads the binary included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases) and places it in your /usr/local/bin/ folder.
+This command downloads the binary included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases) and places it in your _/usr/local/bin/_ folder.
 
 __Windows__: To install the application globally, download the executable named _pfox_windows.exe_ included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases), rename it as _pfox.exe_ and place it in a folder that's on the PATH environment variable.
 
