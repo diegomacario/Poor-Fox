@@ -25,6 +25,18 @@ A beautiful command-line application designed to help you keep track of your exp
 
 ## Installation
 
+__Prerequisite__: Have [Chalk](https://github.com/chalk/chalk) installed in your system.
+ ```sh
+ $ npm install --save chalk
+ ```
+__Linux and macOs__: To install the application globally, execute the command below.
+ ```sh
+ $ 
+ ```
+This command downloads the binary included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases) and places it in your /usr/local/bin/ folder.
+
+__Windows__: To install the application globally, download the executable included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases) and place it in a folder that's on the PATH environment variable.
+
 ## Usage
 
 __Note__: The application features clear error messages that will guide you when you make mistakes.
