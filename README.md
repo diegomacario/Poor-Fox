@@ -19,7 +19,7 @@ A beautiful command-line application designed to help you keep track of your exp
 
 ## Technical Details
 
-- Supported in Linux, macOS and Windows.
+- Supported in macOS, Linux and Windows.
 - Data is stored locally using [SQLite](https://www.sqlite.org/index.html).
 - Terminal string styling is done using [Chalk](https://github.com/chalk/chalk).
 
@@ -27,10 +27,21 @@ A beautiful command-line application designed to help you keep track of your exp
 
 ### Prerequisites 
 
-Have [Chalk](https://github.com/chalk/chalk) installed in your system.
- ```sh
+Have Node.js, npm and Chalk installed in your system. 
+
+- To install Node.js and npm in __macOS__ you can follow these [instructions](http://blog.teamtreehouse.com/install-node-js-npm-mac).
+- To install Node.js and npm in __Linux__ you can execute the following commands:
+```sh
+ $ sudo apt-get update
+ $ sudo apt-get install nodejs
+ $ sudo apt-get install npm
+```
+- To install Node.js and npm in __Windows__ you can follow these [instructions](http://blog.teamtreehouse.com/install-node-js-npm-windows).
+
+To install Chalk you can then execute the following command:
+```sh
  $ npm install --save chalk
- ```
+```
  
 ### macOS
 
@@ -46,7 +57,10 @@ To install the application globally, execute the command below.
  ```sh
  $ curl -L https://github.com/diegomacario/Poor-Fox/raw/master/installer/unix_installer.sh  | sudo bash -s linux
  ```
-This command downloads the binary _pfox_linux_ included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases) and places it in your _/usr/local/bin/_ folder.
+This command downloads the binary _pfox_linux_ included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases) and places it in your _/usr/local/bin/_ folder. If you do not have Curl installed, execute the following command first:
+ ```sh
+ $ sudo apt-get install curl
+ ```
 
 ### Windows
 
