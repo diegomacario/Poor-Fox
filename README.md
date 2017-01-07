@@ -97,6 +97,11 @@ __7.__ Delete your database so that you can create a new one:
  ```sh
  $ pfox help
  ```
+ 
+  __9.__ See what version of the application you are using:
+ ```sh
+ $ pfox version
+ ```
 
 ## Why should you use it?
 
