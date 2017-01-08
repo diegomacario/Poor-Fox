@@ -25,7 +25,7 @@ A beautiful command-line application designed to help you keep track of your exp
 
 ## Installation
 
-### Prerequisites 
+### Requirements 
 
 Have Node.js, npm and Chalk installed in your system. 
 
@@ -55,7 +55,7 @@ This command downloads the binary _pfox_macOS_ included in release [1.0.0](https
 
 To install the application globally, execute the command below.
  ```sh
- $ curl -s -L https://github.com/diegomacario/Poor-Fox/raw/master/installer/unix_installer.sh  | sudo bash -s linux
+ $ curl -s -L https://github.com/diegomacario/Poor-Fox/raw/master/installer/unix_installer.sh | sudo bash -s linux
  ```
 This command downloads the binary _pfox_linux_ included in release [1.0.0](https://github.com/diegomacario/Poor-Fox/releases) and places it in your _/usr/local/bin/_ folder. If you do not have Curl installed, execute the following command first:
  ```sh
