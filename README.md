@@ -104,7 +104,7 @@ __3.__ Add new expense categories to an existing database:
   
 __4.__ Display the expense report of a particular month by specifying its date in the format _month/year_:
  ```sh
- $ pfox tab -d=7/2016
+ $ pfox tab -d=12/2016
  ```
 
 __5.__ Display the months in which you have logged expenses:
