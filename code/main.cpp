@@ -863,6 +863,7 @@ void PrintHelp()
    std::cout << "      -------------------------------- *** To log expenses ***\n\n";
    std::cout << "      log -d=<date> -<code>=<quantity>   + The date must be specified in the format 'day/month/year' (e.g. 19/7/2016).\n";
    std::cout << "                                         + The date must be valid (e.g. February 29 is only valid on leap years).\n";
+   std::cout << "                                         + If no date is provided, today's date will be used.\n";
    std::cout << "                                         + Quantities must be real numbers.\n";
    std::cout << "                                         + Numbers that contain more than 12 digits are rounded.\n\n\n";
 
