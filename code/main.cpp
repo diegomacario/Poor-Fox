@@ -54,7 +54,7 @@ std::string strPrintOutPath = "pfox_console_printout.js";
 std::string strDatabasePath = "pfox_expenses.db";
 std::string strTableCategoriesPath = "pfox_categories.txt";
 
-const std::string sVersion = "1.0.0";
+const std::string sVersion = "1.1.0";
 
 int main(int argc, char * argv[])
 {
