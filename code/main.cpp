@@ -54,7 +54,7 @@ std::string strPrintOutPath = "pfox_console_printout.js";
 std::string strDatabasePath = "pfox_expenses.db";
 std::string strTableCategoriesPath = "pfox_categories.txt";
 
-const std::string sVersion = "1.0.0";
+const std::string sVersion = "1.1.0";
 
 int main(int argc, char * argv[])
 {
@@ -863,6 +863,7 @@ void PrintHelp()
    std::cout << "      -------------------------------- *** To log expenses ***\n\n";
    std::cout << "      log -d=<date> -<code>=<quantity>   + The date must be specified in the format 'day/month/year' (e.g. 19/7/2016).\n";
    std::cout << "                                         + The date must be valid (e.g. February 29 is only valid on leap years).\n";
+   std::cout << "                                         + If no date is provided, today's date will be used.\n";
    std::cout << "                                         + Quantities must be real numbers.\n";
    std::cout << "                                         + Numbers that contain more than 12 digits are rounded.\n\n\n";
 

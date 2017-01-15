@@ -9,6 +9,8 @@
 #include <sys/types.h> 
 #include <sys/stat.h>
 
+#include <time.h>
+
 class CParser
 {
 
@@ -256,6 +258,8 @@ bool CParser::DataFieldExists(std::string sCmd)
 std::string CParser::GetDate()
 {
    vectorOfStringIT it = m_vecDataFields.begin();
+   time_t time_raw;
+   char buf[12];
 
    size_t iIndex;
    for (; it != m_vecDataFields.end(); it++)
@@ -267,7 +271,9 @@ std::string CParser::GetDate()
          return (*it).substr(iIndex + 1);
       }
    }
-   return "";
+   time(&time_raw);
+   strftime(buf, 12, "%d/%m/%Y", localtime(&time_raw));
+   return buf;
 }
 
 // Extracts the value associated with a data field
@@ -455,9 +461,13 @@ bool CParser::CheckUserEnteredProperDate(bool bPrintSpecificTable)
       }
    }
 
-   if (!bDateAvailable)
+   if (!bDateAvailable && bLog)
    {
-      return false;
+      /*
+       * Return true here if no date option was entered on the commandline,
+       * since we will use today's date later on
+       */
+      return true;
    }
 
    if (bPrintSpecificTable)
