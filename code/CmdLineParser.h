@@ -9,6 +9,8 @@
 #include <sys/types.h> 
 #include <sys/stat.h>
 
+#include <time.h>
+
 class CParser
 {
 
@@ -459,7 +461,7 @@ bool CParser::CheckUserEnteredProperDate(bool bPrintSpecificTable)
       }
    }
 
-   if (!bDateAvailable)
+   if (!bDateAvailable && bLog)
    {
       /*
        * Return true here if no date option was entered on the commandline,
