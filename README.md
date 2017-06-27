@@ -148,6 +148,7 @@ Log your expenses for a couple of months and you'll find all the categories in w
 <p align="center">
   <img src="https://github.com/diegomacario/Poor-Fox/blob/master/readme_images/fantastic_mr_fox.PNG"/>
 </p>
+
 > __Mr. Fox__: I don't want to live in a hole anymore. It makes me feel poor.
 
 > __Mrs. Fox__: We are poor -- but we're happy.
