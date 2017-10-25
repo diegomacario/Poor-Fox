@@ -17,7 +17,7 @@ A beautiful command-line application designed to help you keep track of your exp
 - Visualize the total you spend on each category through monthly reports.
 - Add new expense categories to an existing database.
 
-## Technical Details
+## Technical details
 
 - Supported in macOS, Linux and Windows.
 - Data is stored locally using [SQLite](https://www.sqlite.org/index.html).
