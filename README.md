@@ -92,6 +92,7 @@ __2.__ Log the money you spent on a particular day by specifying its date in the
     - The table at the top displays the expenses that have been logged into each category separated by day.
     - The second table and the bar graph display the total spent in each category.
     - The global value at the bottom is the sum of all the totals.
+ - If you do not specify a date, today's date is selected by default.
  - You can log expenses using the same date more than once. The expenses you enter will be added to the existing ones.
  - You can log negative values to make corrections when you enter incorrect amounts.
  - Dates are sorted automatically.
