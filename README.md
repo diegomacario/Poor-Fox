@@ -149,9 +149,9 @@ Log your expenses for a couple of months and you'll find all the categories in w
 <p align="center">
   <img src="https://github.com/diegomacario/Poor-Fox/blob/master/readme_images/fantastic_mr_fox.PNG"/>
 </p>
-
-> __Mr. Fox__: I don't want to live in a hole anymore. It makes me feel poor.
-
-> __Mrs. Fox__: We are poor -- but we're happy.
+<p align="center">
+  <strong><em>Mr. Fox</strong>: I don't want to live in a hole anymore. It makes me feel poor.</em><br />
+  <strong><em>Mrs. Fox</strong>: We are poor -- but we're happy.</em>
+</p>
 
 If you haven't watched _Fantastic Mr. Fox_ yet, make time in your schedule to watch it with your loved ones. You will feel elated!
