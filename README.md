@@ -19,7 +19,7 @@ A beautiful command-line application designed to help you keep track of your exp
 
 ## Technical details
 
-- Supported in macOS, Linux and Windows.
+- Supported on macOS, Linux and Windows.
 - Data is stored locally using [SQLite](https://www.sqlite.org/index.html).
 - Terminal string styling is done using [Chalk](https://github.com/chalk/chalk).
 
